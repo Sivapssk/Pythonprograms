@@ -1,0 +1,13 @@
+n=int(input())
+e=2
+o=1
+es=0
+os=0
+while(n>0):
+    es=es+e
+    e=e+2
+    os=os+o
+    o+=2
+    n-=1
+print(es)
+print(os)    
