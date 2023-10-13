@@ -1,0 +1,16 @@
+n=int(input())
+c=0
+t=n
+p=0
+v=n
+while(n):
+        c=c+1
+        n=n//10
+while(t):
+        r=t%10
+        p=p+(r**c)
+        t=t//10
+if(v==p):
+        print("arm")
+else:
+        print("not")
